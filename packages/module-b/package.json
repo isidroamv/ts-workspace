@@ -1,0 +1,10 @@
+{
+    "name": "@ts-workspace/module-b",
+    "version": "1.0.0",
+    "main": "dist",
+    "dependencies": {
+        "@ts-workspace/module-a": "workspace:^",
+        "cross-env": "5.0.5",
+        "typescript": "^5.3.2"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "@ts-workspace/module-a",
+    "version": "1.0.0",
+    "main": "dist",
+    "scripts": {
+        "start": "node dist/index.js"
+    },
+    "dependencies": {
+        "cross-env": "5.0.5"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.2"
+    }
+}
